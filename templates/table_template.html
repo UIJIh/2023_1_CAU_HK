@@ -1,0 +1,10 @@
+<!-- 시간표 템플릿 파일 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    {{ table_content | safe }}
+</body>
+</html>
